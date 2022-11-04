@@ -13,6 +13,7 @@ header{
     width: 100%     ;
     background-size: 200px;
     padding: 20px 0;
+    
 }
 /*Estilização da sessão NAV (navegação) da página*/
 nav{
@@ -47,10 +48,10 @@ ul{
     margin: auto;
 }
 .logo{
-    width: 340px;
+    width: 400px;
     height: 340px;
     border-radius: 50px;
-    margin: 0 -60px;
+    margin: 0 -80px;
 }
 .banner{
     width: 100%;
@@ -81,7 +82,7 @@ ul{
     font-weight: bold;
 }
 /*Estilização do Mapa*/
-.map{
+.map{   
     padding: 3em 0;
     background: linear-gradient(#c57d56, #582417);
 }
@@ -136,5 +137,11 @@ nav a:hover{
 footer{
     text-align: center;
     background-image: url('hamburgueres.jpg');
-   color: white;
+    color: white;
+}
+.item{
+    background-color: darkred;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
 }
