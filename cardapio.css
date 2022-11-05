@@ -51,13 +51,15 @@ ul{
     width: 400px;
     height: 340px;
     border-radius: 50px;
-    margin: 0 -80px;
+    margin: 0 -50px;
 }
 .banner{
     width: 100%;
 }
 body{
-    background: #800008;
+    /*background: #800008;*/
+    background-image: url('Body.jpg');
+    background-size: 1000px;
 }
 .photo{
     width: 30%;
@@ -65,7 +67,7 @@ body{
     object-fit: cover;
 }
 .container{
-    margin: auto;
+    margin: 25px auto;
     max-width: 1000px;
     display: grid;
     grid-template-columns: repeat(auto-fit, 1fr);
@@ -75,4 +77,18 @@ body{
 .polaroid{
     background: white;
     padding: 15px 15px 40px;
+}
+footer{
+    text-align: center;
+    background-image: url('hamburgueres.jpg');
+    background-size: 190px;
+    color: white;
+    width: 100%;
+    margin-top: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.img-footer{
+    width: 150px;
+    border-radius: 25%;
 }

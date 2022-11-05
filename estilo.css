@@ -10,7 +10,7 @@ body{
 header{
     background-image: url('hamburgueres.jpg');
     /*background:linear-gradient(#708090, #2F4F4F);*/
-    width: 100%     ;
+    width: 100%;
     background-size: 200px;
     padding: 20px 0;
     
@@ -51,7 +51,7 @@ ul{
     width: 400px;
     height: 340px;
     border-radius: 50px;
-    margin: 0 -80px;
+    margin: 0 -50px;
 }
 .banner{
     width: 100%;
@@ -64,13 +64,24 @@ ul{
     margin: 0 20px 20px 0;
 }
 .titulo-principal{
+    color: black;
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
-    clear: left;
+    clear: center;
+}
+.titulo-mapa{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: center;
+}
+.sobre{
+    color: antiquewhite;
 }
 .principal{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     padding: 3em 0;
     background-color: white;
@@ -84,20 +95,29 @@ ul{
 /*Estilização do Mapa*/
 .map{   
     padding: 3em 0;
-    background: linear-gradient(#c57d56, #582417);
+    background-image: url('Localização.png');
+    background-size: 1350px;
 }
 .mapa-conteudo{
     width: 940px;
-    margin: 0 650px;
+    margin: 0 380px;
 }
 .map p{
     margin: 0 0 2em;
     text-align: center;
 }
 /*Área Benefícios e Vídeo*/
+.titulo-beneficios{
+    color: black;
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: center;
+}
 .beneficios{
     padding: 3em 0;
-    background: #8d4925;
+    background-image: url('Beneficios.png');
+    background-size: 1350px;
 }
 .conteudo-beneficio{
     width: 640px;
@@ -107,6 +127,9 @@ ul{
     width: 50%;
     display: inline-block;
     vertical-align: top;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .img-beneficios{
     width: 25%;
@@ -137,11 +160,20 @@ nav a:hover{
 footer{
     text-align: center;
     background-image: url('hamburgueres.jpg');
+    background-size: 200px;
     color: white;
+    width: 100%;
+}
+.img-footer{
+    width: 200px;
+    border-radius: 25%;
 }
 .item{
     background-color: darkred;
     margin: 10px;
     border-radius: 5px;
     padding: 20px;
+}
+.video{
+    border-radius: 5%;
 }

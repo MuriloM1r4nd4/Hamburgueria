@@ -9,7 +9,12 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: darkorange;
+    background-image: url('contato-novo.png');   
+    background-size: 1500px;
+    background-position: center top;
+}
+.img-contato{
+    width: 15%;
 }
 section{
     display: flex;
@@ -45,7 +50,7 @@ form input{
     transition: all 0.5s;
 }
 form input:focus{
-border-radius: 16px;
+    border-radius: 16px;
 }
 form textarea{
     padding: 10px;
